@@ -1,29 +1,37 @@
 {
   "name": "react-website-starter",
-  "private": true,
-  "version": "0.0.1",
+  "license": "MIT",
+  "version": "1.0.0",
   "description": "React website starter",
-  "main": "index.js",
-  "scripts": {
-    "start": "x0 dev src/Index.js -op 8888",
-    "build": "x0 build src/Index.js -d . --static"
-  },
+  "main": "Index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/broccolini/react-website-starter.git"
   },
   "author": "Diana Mounter",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broccolini/react-website-starter/issues"
+    "url": "https://github.com/cwonrails/react-website-starter/issues"
   },
-  "homepage": "https://github.com/broccolini/react-website-starter#readme",
+  "homepage": "https://github.com/cwonrails/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^3.2.0",
-    "babel-preset-env": "^1.6.1",
+    "@compositor/x0": "^4.0.3",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "react": "^16.2.0",
-    "styled-components": "^3.1.6",
-    "styled-system": "^2.0.2"
+    "react": "^16.3.2",
+    "styled-components": "^3.2.6",
+    "styled-system": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "standard": "^11.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }

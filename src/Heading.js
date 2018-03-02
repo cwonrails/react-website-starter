@@ -6,7 +6,7 @@ Heading.defaultProps = {
   fontSize: 5,
   fontWeight: 600,
   lineHeight: 1.25,
-  m: 0,
+  m: 0
 }
 
 Heading.h1 = Heading.withComponent('h1')

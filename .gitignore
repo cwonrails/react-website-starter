@@ -1,2 +1,10 @@
+.DS_Store
+.vscode
+.cache
+.env
+
+dist
 node_modules
-npm-debug.log
+
+*log*
+*.log*
