@@ -4,7 +4,7 @@ import {
   color,
   fontSize,
   fontWeight,
-  lineHeight,
+  lineHeight
 } from 'styled-system'
 
 const Text = styled.div`
