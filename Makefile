@@ -17,8 +17,9 @@ clean:
 .PHONY: clean
 
 # Update dependencies.
+# deps: go get -u github.com/tj/node-prune/cmd/node-prune; yarn upgrade --latest
 deps:
-	go get -u github.com/tj/node-prune/cmd/node-prune; yarn upgrade --latest
+	yarn upgrade --latest
 .PHONY: deps
 
 # Lint with Standard.
