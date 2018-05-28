@@ -14,12 +14,12 @@
   },
   "homepage": "https://github.com/cwonrails/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^4.0.3",
+    "@compositor/x0": "^5.0.8",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "react": "^16.3.2",
-    "styled-components": "^3.2.6",
-    "styled-system": "^2.2.5"
+    "react": "^16.4.1",
+    "styled-components": "^3.3.2",
+    "styled-system": "^2.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
