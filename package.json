@@ -42,5 +42,9 @@
   },
   "standard": {
     "parser": "babel-eslint"
+  },
+  "x0": {
+    "title": "Chris Watson",
+    "description": "Writer, developer, marketer, citizen"
   }
 }
