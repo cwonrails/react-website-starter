@@ -8,7 +8,7 @@ all: clean deps prune dev
 
 # Start development server.
 dev:
-	$(x0) src/Index.js -op 8888
+	$(x0) src/index.js -op 8888
 .PHONY: dev
 
 # Remove dist folder.
@@ -34,11 +34,11 @@ prune:
 
 # Build static site with client-side JS bundle.
 bundle:
-	$(x0) build src/Index.js -d dist --cssLibrary='styled-components'
+	$(x0) build src/index.js -d dist --cssLibrary='emotion'
 .PHONY: bundle
 
 # Build html-only static site.
 static:
-	$(x0) build src/Index.js -d dist --static
+	$(x0) build src/index.js -d dist --static
 .PHONY: static
 

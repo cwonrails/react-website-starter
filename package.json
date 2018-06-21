@@ -3,12 +3,11 @@
   "license": "MIT",
   "version": "1.0.0",
   "description": "React website starter",
-  "main": "Index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broccolini/react-website-starter.git"
+    "url": "git+https://github.com/cwonrails/react-website-starter.git"
   },
-  "author": "Diana Mounter",
+  "author": "Chris Watson",
   "bugs": {
     "url": "https://github.com/cwonrails/react-website-starter/issues"
   },
@@ -17,8 +16,9 @@
     "@compositor/x0": "^5.0.8",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "emotion": "^9.2.3",
     "react": "^16.4.1",
-    "styled-components": "^3.3.3",
+    "react-emotion": "^9.2.3",
     "styled-system": "^2.3.1"
   },
   "devDependencies": {
@@ -28,6 +28,15 @@
   "babel": {
     "presets": [
       "env",
+      {
+        "targets": {
+          "browsers": [
+            ">0.25%",
+            "not ie 11",
+            "not op_mini all"
+          ]
+        }
+      },
       "react"
     ]
   },
