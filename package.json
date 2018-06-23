@@ -16,13 +16,13 @@
     "@compositor/x0": "^5.0.8",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "emotion": "^9.2.3",
+    "emotion": "^9.2.4",
     "react": "^16.4.1",
-    "react-emotion": "^9.2.3",
-    "styled-system": "^2.3.1"
+    "react-emotion": "^9.2.4",
+    "styled-system": "^2.3.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.5",
     "standard": "^11.0.1"
   },
   "babel": {
@@ -44,7 +44,11 @@
     "parser": "babel-eslint"
   },
   "x0": {
+    "static": true,
+    "outDir": "dist",
     "title": "Chris Watson",
-    "description": "Writer, developer, marketer, citizen"
+    "description": "Writer, developer, marketer, citizen",
+    "meta": "",
+    "links": ""
   }
 }
