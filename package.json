@@ -13,16 +13,16 @@
   },
   "homepage": "https://github.com/cwonrails/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^6.0.0",
+    "@compositor/x0": "^6.0.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "emotion": "^9.2.4",
+    "emotion": "^9.2.5",
     "react": "^16.4.1",
-    "react-emotion": "^9.2.4",
-    "styled-system": "^2.3.2"
+    "react-emotion": "^9.2.5",
+    "styled-system": "^2.3.6"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^8.2.6",
     "standard": "^11.0.1"
   },
   "babel": {
